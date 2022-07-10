@@ -25,6 +25,7 @@ class MailServerActorBase():
             ident="SpaceBeaver (PCFLabsLLC)",
             port=port)
         self.label = label
+        self.hostname = hostname
         if label is not None:
             self.apply_label()
 
